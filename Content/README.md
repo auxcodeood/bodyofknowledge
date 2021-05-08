@@ -105,6 +105,20 @@ A script must be written which bi-directionally checks on build time:
 
 Content can be managed in a low- and in a high-tech fashion.
 
+### Low-tech
+
 The low-tech fashion is much cheaper to implement, but requires a bit of a readiness among the content participants (writers and translators). A superb low-tech fashion are *.yaml files stored in git: groupped per module, feature, page and single word indented keys.
 
+### High-tech
+
 The high-tech fashion can be much more expensive to implement on several levels and will be considered only if the low-tech fashion is rejected.
+
+### General Rules
+
+All content must be managed in one central places and now party should be able to break the process by breaking the workflow or introducing workflows.
+
+Eg. the low-tech way is in git, which:
+
+* Is a one central place
+* Provides versioning to the author, letter and second; unlimited in the past.
+* Is machine readable for [Sanity and Cleanup](#sanity-and-cleanup) purposes.
