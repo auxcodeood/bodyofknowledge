@@ -52,7 +52,7 @@ During the templating phase all content must be clear, but not the final wording
 * `NO` final wording
 * `NO` translations
 
-#### Generated Templates
+#### Dynamic Templates
 
 During the engineering of the generated templates all content must be clear, but not the final wording and translations.
 
